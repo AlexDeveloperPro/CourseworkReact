@@ -1,21 +1,21 @@
 import React from 'react'
 import Head from '../views/global/Head'
 import Foot from '../views/global/Foot'
-import css from '../../styles/form.css'
+import css from '../../styles/form.css.js'
 import InputComponent from '../comps/input'
 
-const {FormContainer} = css
+const { FormContainer } = css
 
 const Login = () => {
     return (
         <React.Fragment>
-            <Head></Head>
+            <Head />
             <FormContainer>
-                <InputComponent placeholder={"Введите Ваш логин"}/>
-                <InputComponent placeholder={"Введите Ваш пароль"}/>
-                <InputComponent placeholder={"Введите ну хоть что-нибудь пилядь!"}/>
+                <InputComponent placeholder={"Введите Ваш логин"} />
+                <InputComponent placeholder={"Введите Ваш пароль"} />
+                <InputComponent placeholder={"Введите ну хоть что-нибудь пилядь!"} />
             </FormContainer>
-            <Foot></Foot>
+            <Foot />
         </React.Fragment>
     )
 }

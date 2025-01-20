@@ -1,40 +1,39 @@
-import styiled from "styled-components"
+import styled from "styled-components"
 
 const css = {
-    HeaderContainer: styiled.header`
+    HeaderContainer: styled.header`
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-contant: space-between;
+    justify-content: space-between;
     position: relative;
     width: 100%;
     height: 80%;
-    backgrount-color: #202634;
+    background-color: #202634;
     padding: 0px 30px;
-    `
-    ,
-    FooterContainer: styiled.footer`
+    `,
+    FooterContainer: styled.footer`
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-contant: space-between;
+    justify-content: space-between;
     position: relative;
     width: 100%;
     height: 80%;
-    backgrount-color: #E5E5E5;
+    background-color: #E5E5E5;
     `,
     HeaderCSS: {
         Logo: styled.div`
-            front-size: 30px;
+            font-size: 30px;
             color: #B0F347;
         `,
-        MenuContainer: styiled.div`
+        MenuContainer: styled.div`
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-contant: space-between;
+        justify-content: space-between;
         position: relative;
-        `    
+        `
     }
 }
 

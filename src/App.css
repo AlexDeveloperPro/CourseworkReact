@@ -1,12 +1,10 @@
-
-
- #root {
+#root {
   max-width: auto;
- margin: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-align: center;
-  
+
 }
 
 .logo {
@@ -14,14 +12,17 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
-  font-size: 26px; color:#9Cff00
+  font-size: 26px;
+  color: #9Cff00
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-} 
+}
 
 /* @keyframes logo-spin {
   from {
@@ -48,4 +49,4 @@
 
 .buttons-container{
   color:aqua;
-} */ 
+} */

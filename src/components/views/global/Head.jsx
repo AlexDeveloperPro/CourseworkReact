@@ -1,12 +1,12 @@
 import React from 'react'
-import css from '../../../styles/styles.css'
-const {HeaderContainer, HeaderCSS} = css
+import css from '../../../styles/styles.css.js'
+const { HeaderContainer, HeaderCSS } = css
 
-const buttonCSS ={
+const buttonCSS = {
     display: 'block',
     padding: '10px 14px 12px',
     borderRadius: '6px',
-    backgraundColor: '#B0F347',
+    backgroundColor: '#B0F347',
     cursor: 'pointer',
     marginLeft: '10px'
 }

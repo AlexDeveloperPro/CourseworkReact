@@ -1,81 +1,82 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Login from './components/pages/login';
-//import './App.css'
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+import Login from './components/pages/Login';
+import React from 'react';
+import './App.css'
 
-function App() { 
+function App() {
   return (
-   
-   <React.Fragment> 
-    <Login></Login>
-     </React.Fragment>
-             
-); 
-} 
+
+    <>
+      <Login />
+    </>
+
+  );
+}
 
 export default App
 
 
 
 
-// function Logo() { 
-//   return <div className="logo"><span>LOGO</span></div> 
-// } 
+// function Logo() {
+//   return <div className="logo"><span>LOGO</span></div>
+// }
 
-// function Menu() { 
-//   return( 
-//   <div className={"buttons-container"}> 
-//   <button> О компании</button> 
-//   <button> Наши заслуги</button> 
+// function Menu() {
+//   return(
+//   <div className={"buttons-container"}>
+//   <button> О компании</button>
+//   <button> Наши заслуги</button>
 //   {/* <button> О компании</button>  */}
-//   </div> 
-//   ) 
-// } 
+//   </div>
+//   )
+// }
 
-// function Feedback() { 
-//   return ( 
-//       <div className={"feedback"}> 
-//       <span>Позвонить</span> 
-//       <span></span> 
-//       </div> 
-//   ) 
-// } 
+// function Feedback() {
+//   return (
+//       <div className={"feedback"}>
+//       <span>Позвонить</span>
+//       <span></span>
+//       </div>
+//   )
+// }
 
-// function Form() { 
-//   return ( 
-//       <div className={"form"}> 
-//           <input 
-//           type={"text"} 
-//           placeholder={"Введите ваш логин"} 
-//           /> 
-//           <input 
-//           type={"text"} 
-//           placeholder={"Введите ваш пароль"} 
-//           /> 
-//           <button>Войти</button> 
-//           <button>Зарегистрироваться</button> 
-//       </div> 
-//   ) 
-// } 
+// function Form() {
+//   return (
+//       <div className={"form"}>
+//           <input
+//           type={"text"}
+//           placeholder={"Введите ваш логин"}
+//           />
+//           <input
+//           type={"text"}
+//           placeholder={"Введите ваш пароль"}
+//           />
+//           <button>Войти</button>
+//           <button>Зарегистрироваться</button>
+//       </div>
+//   )
+// }
 
-// function Header() { 
-//   return ( 
-//       <header> 
+// function Header() {
+//   return (
+//       <header>
 //           {/* <NonJSXLogo/>  */}
-//           <Menu/> 
-//           <Feedback/> 
-//       </header> 
-//   ) 
-// } 
+//           <Menu/>
+//           <Feedback/>
+//       </header>
+//   )
+// }
 
-// function Main() { 
-//   return ( 
-//       <main> 
-//           <Form/> 
-//       </main> 
-//   ) 
-// } 
+// function Main() {
+//   return (
+//       <main>
+//           <Form/>
+//       </main>
+//   )
+// }
 
 
 //function App() {

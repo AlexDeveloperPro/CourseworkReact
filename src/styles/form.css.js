@@ -1,11 +1,11 @@
 import styled from "styled-components"
 
 const css = {
-FormContainer: styled.div`
+    FormContainer: styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-contant: flex-start;
+    justify-content: flex-start;
     position: relative;
     width: 600px;
     height: auto;
@@ -15,14 +15,14 @@ FormContainer: styled.div`
     margin: 40px auto 40px;
     padding: 20px;
 `,
-Input: styled.input`
+    Input: styled.input`
     display: flex;
     position: relative;
     width: 600px;
     height: auto;
     outline: none;
     border: none;
-    background-color: rgp(229, 229, 229);
+    background-color: rgb(229, 229, 229);
     border-radius: 4px;
     padding-left: 14px;
     margin-bottom: 10px;
